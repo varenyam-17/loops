@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    string pw;
+    cout<<"Set Password:"<<endl;
+    string cpw;
+    cin>>cpw;
+    
+    cout<<"Enter your Password:"<<endl;
+    
+    cin>>pw;
+    
+    while(pw!="")
+    {
+        
+     if(pw==cpw)
+     {
+         cout<<"Correct Password,System Unlocked"<<endl;
+         break;
+     }
+     else
+     {
+         cout<<"Wong password"<<endl;
+         cout<<"Enter your Password"<<endl;
+         cin>>pw;
+         
+     }
+     
+    }
+}
+code
+2
+#include <iostream>
+using namespace std;
+int main()
+{
+    string pw;
+    cout<<"Set Password:"<<endl;
+    string cpw;
+    cin>>cpw;
+    
+    cout<<"Enter your Password:"<<endl;
+    
+    cin>>pw;
+    
+    while(pw!="")
+    {
+        
+     if(pw==cpw)
+     {
+         cout<<"Correct Password,System Unlocked"<<endl;
+         break;
+     }
+     else
+     {
+         cout<<"Wong password"<<endl;
+         cout<<"Enter your Password"<<endl;
+         cin>>pw;
+         
+     }
+     
+    }
+}
