@@ -21,7 +21,7 @@ int main()
      }
      else
      {
-         cout<<"Wong password"<<endl;
+         cout<<"Wrong password"<<endl;
          cout<<"Enter your Password"<<endl;
          cin>>pw;
          
